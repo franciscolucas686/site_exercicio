@@ -4,3 +4,195 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: linear-gradient(to bottom,#000022, #001242,#4869EE 130%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+header h1,
+section h2{
+    font-weight: 700;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000022;
+    color: #E7E7E7;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;;
+}
+
+header nav li a {
+    color: #E7E7E7;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section img{
+    height:350px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+section {
+    height: 650px;
+    padding: 150px 0;
+    color: #E7E7E7;
+}
+
+section h2 {
+    font-size: 55px;
+    margin-bottom: 16px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    padding-left: 30px;
+    margin-bottom: 16px;
+    background-color: #4869eea8;
+    border-radius: 20px;
+}
+
+.box li::marker {
+    color: #0396ff;
+}
+
+button {
+    background-color: #0396ff;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: #E7E7E7;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #056cb6;
+    cursor: pointer;
+}
+
+#blog {
+    background-color: #000022;
+    height: 850px;
+    padding: 100px;
+}
+
+#blog .container{
+    display: block;
+}
+
+#blog .container h2, #para{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+#para{
+    margin-bottom: 70px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.blogs img {
+    height: 225px;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.blogs h3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 20px;
+    background-color: #0396ff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.blogs p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#business h3 {
+    width: 180px;
+}
+
+#ux h3 {
+    width: 150px;
+}
+
+#dev h3 {
+    width: 230px;
+}
+
+section {
+    padding-top: 100px;
+}
+
+#contact h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+
+.contact-methods  {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+

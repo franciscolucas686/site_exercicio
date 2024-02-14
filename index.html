@@ -4,25 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Innovify</title>
 </head>
 <body>
     <header>
-        <img src="images/logo-dark.svg" alt="Logo Innovify">
-        <h1>Innovify</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Serviços</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Innovity</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <section>
+        <div class="container">
+            <div class="text-container">
+                <div class="box">
+                    <ul>
+                        <li>Template para sites</li>
+                    </ul>
+                </div>
+                <h2>Soluções Digitais para a sua empresa</h2>
+                <p>Marketing direto e anúncios com modelos de sites prontos para voce dar o pontapé inicial em seu proximo projeto web. Suporte individual 24 horas.</p>
+                <button type="submit">Começar agora</button>
+            </div>
+            <img src="images/menina-office.jpg" alt="Menina com notebook e lapis laranja na orelha">
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <h2>Últimas Notícias e Artigos do Nosso Blog</h2>
+            <p id="para">Explore as últimas novidades e conteúdos envolventes em nosso blog. Mantenha-se informado sobre temas relevantes e descubra artigos fascinantes que abrangem uma variedade de assuntos.</p>
+            <div class="blogs">
+                <div id="business">
+                    <h3>Negócios Online</h3>
+                    <img src="images/image-1.jpg" alt="Menina com livro na mão">
+                    <p>Publicidade gratuita para o seu negócio online</p>
+                </div>
+                <div id="ux">
+                    <h3>UI/UX Design</h3>
+                    <img src="images/image-2.jpg" alt="Tela de computador com gráficos">
+                    <p>9 maneiras simples de melhorar suas habilidades de design</p>
+                </div>
+                <div id="dev">
+                    <h3>Desenvolvimento Web</h3>
+                    <img src="images/image-3.jpg" alt="Cadeira vazia com um notebook sobre a mesa">
+                    <p>Dicas para melhorar rapidamente sua velocidade de codificação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <div class="container">
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome">
+                        <input type="email" placeholder="Seu e-mail">
+                        <input type="tel" placeholder="Seu telefone(opicional)">
+                        <textarea placeholder="Sua Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Instagram"></a>
+                                <img src="images/instagram.png" alt="logo Instagram">
+                        </li>
+                        <li>
+                            <a href="#" title="Facebook"></a>
+                                <img src="images/facebook.png" alt="logo Facebook">
+                        </li>
+                        <li>
+                            <a href="#" title="Instagram"></a>
+                                <img src="images/twitter.png" alt="logo Twitter">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Endereço</h3>
+                    <address>
+                        Av. Pereira da Silva, 250 - Jardim Santa Rosália, Sorocaba - SP, 18095-340
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
