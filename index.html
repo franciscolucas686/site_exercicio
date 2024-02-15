@@ -16,10 +16,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="#blog">Blog</a>
                     </li>
                 </ul>
             </nav>
@@ -67,17 +67,17 @@
         <h2>Contato</h2>
         <div class="container">
             <div class="contact-methods">
-                <div>
+                <div class="align">
                     <h3>Fale Conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
                         <input type="tel" placeholder="Seu telefone(opicional)">
-                        <textarea placeholder="Sua Mensagem"></textarea>
+                        <textarea placeholder="Sua Mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
-                <div>
+                <div class="align" id="rede">
                     <h3>Redes Sociais</h3>
                     <ul class="social-links">
                         <li>
@@ -89,7 +89,7 @@
                                 <img src="images/facebook.png" alt="logo Facebook">
                         </li>
                         <li>
-                            <a href="#" title="Instagram"></a>
+                            <a href="#" title="Twitter"></a>
                                 <img src="images/twitter.png" alt="logo Twitter">
                         </li>
                     </ul>
@@ -103,5 +103,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Innovify Tecnologia da Informação - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
